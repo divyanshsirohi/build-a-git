@@ -47,44 +47,44 @@ All implemented using Python's standard libraries, without relying on external G
 
 1. Clone this repo:  
    ```bash
-   git clone https://github.com/yourusername/my-own-git.git
-   cd my-own-git
+   git clone https://github.com/divyanshsirohi/build-a-git.git
+   cd build-a-git
    ```
 2. Ensure Python 3.8+ is installed.
 
 3. Run commands via CLI:
 
 ```bash
-python mygit.py init
-python mygit.py add <filename>
-python mygit.py commit -m "Your commit message"
+python wyag init
+python wyag add <filename>
+python wyag commit -m "Your commit message"
 ```
 
 📚 Usage Examples
 Initialize a repo:
 
 ```bash
-python mygit.py init
+python wyag init
 ```
 Add a file:
 
 ```bash
-python mygit.py add README.md
+python wyag add README.md
 ```
 Commit changes:
 
 ```bash
-python mygit.py commit -m "Initial commit"
+python wyag commit -m "Initial commit"
 ```
 View commit log:
 
 ```bash
-python mygit.py log
+python wyag log
 ```
 Create and switch branch:
 ```bash
-python mygit.py branch new-feature
-python mygit.py checkout new-feature
+python wyag branch new-feature
+python wyag checkout new-feature
 ```
 ## 📈 What I Learned
 How Git manages content addressing using hashes and objects
